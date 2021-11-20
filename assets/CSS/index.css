@@ -1,32 +1,28 @@
-.nav__icon {
-    margin-right: 2px;
-}
-
 #home {
     background-color: rgb(54, 52, 52);
-    background-size: auto;
 }
 
-.home__section h1, h4, p {
-    color: white;
+/* Navigation bar */
+.nav-item {
+    padding: 0 3px;
 }
 
+.nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.home__section h1, h4 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Home Section */
 .home__blob {
     width: 200px;
 }
 
 .home__blob-img {
     width: 225px;
-}
-
-.contact__btn {
-    height: 50px;
-}
-
-.contact__btn__icon {
-    margin-left: 10px;
-}
-
-.about__section h1{
-    color: rgb(54, 52, 52);
 }
